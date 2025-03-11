@@ -29,3 +29,6 @@ jobs:
       - name: Push Docker image
         run: |
           docker push vadimalvaro/lab-4-5:latest
+      - name:  Pull Docker image
+        run: |
+          docker pull vadimalvaro/lab-4-5:latest
